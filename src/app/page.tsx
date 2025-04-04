@@ -2,8 +2,8 @@ import TransactionForm from "./components/TransactionForm";
 
 export default function Home() {
   return (
-    <main>
+    <div className="w-full flex justify-center">
       <TransactionForm />
-    </main>
+    </div>
   );
 }
